@@ -1,0 +1,69 @@
+20:22:27 [main] INFO  EmployeeService - Hired employee: Alice for position: Developer
+20:22:27 [main] INFO  EmployeeService - Hired employee: Bob for position: Tester
+20:22:27 [main] INFO  EmployeeService - Hired employee: Jane Doe for position: Manager
+20:22:27 [main] INFO  EmployeeService - Fired employee: Jane Doe
+20:22:27 [main] INFO  EmployeeService - Hired employee: John Doe for position: Engineer
+20:27:06 [main] INFO  EmployeeService - Нанят работник: Alice на должность: Developer
+20:27:06 [main] INFO  EmployeeService - Нанят работник: Bob на должность: Tester
+20:27:06 [main] INFO  EmployeeService - Нанят работник: Jane Doe на должность: Manager
+20:27:06 [main] INFO  EmployeeService - Уволен сотрудник: Jane Doe
+20:27:06 [main] INFO  EmployeeService - Нанят работник: John Doe на должность: Engineer
+20:27:40 [main] INFO  PositionService - Созданная должность: Разработчик
+20:27:40 [main] INFO  PositionService - Созданная должность: Менеджер
+20:27:40 [main] INFO  SalaryService - Заработная плата: 103000.0 на должнотсь: Разработчик
+20:27:40 [main] INFO  SalaryService - Заработная плата: 157500.0 на должнотсь: Менеджер
+20:27:40 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+20:27:40 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+20:27:40 [main] INFO  SalaryService - Заработная плата: 115566.00000000001 на должнотсь: Разработчик
+20:27:40 [main] INFO  SalaryService - Заработная плата: 180180.0 на должнотсь: Менеджер
+20:27:40 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+20:27:40 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должнотсь: Разработчик
+20:27:40 [main] INFO  SalaryService - Заработная плата: 220540.32 на должнотсь: Менеджер
+20:30:28 [main] INFO  PositionService - Созданная должность: Разработчик
+20:30:28 [main] INFO  PositionService - Созданная должность: Менеджер
+20:30:28 [main] INFO  SalaryService - Заработная плата: 103000.0 на должнотсь: Разработчик
+20:30:28 [main] INFO  SalaryService - Заработная плата: 157500.0 на должнотсь: Менеджер
+20:30:28 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+20:30:28 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+20:30:28 [main] INFO  SalaryService - Заработная плата: 115566.00000000001 на должнотсь: Разработчик
+20:30:28 [main] INFO  SalaryService - Заработная плата: 180180.0 на должнотсь: Менеджер
+20:30:28 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+20:30:28 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должнотсь: Разработчик
+20:30:28 [main] INFO  SalaryService - Заработная плата: 220540.32 на должнотсь: Менеджер
+20:31:58 [main] INFO  PositionService - Созданная должность: Разработчик
+20:31:58 [main] INFO  PositionService - Созданная должность: Менеджер
+20:31:58 [main] INFO  SalaryService - Заработная плата: 103000.0 на должнотсь: Разработчик
+20:31:58 [main] INFO  SalaryService - Заработная плата: 157500.0 на должнотсь: Менеджер
+20:31:58 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+20:31:58 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+20:31:58 [main] INFO  SalaryService - Заработная плата: 115566.00000000001 на должнотсь: Разработчик
+20:31:58 [main] INFO  SalaryService - Заработная плата: 180180.0 на должнотсь: Менеджер
+20:31:58 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+20:31:58 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должнотсь: Разработчик
+20:31:58 [main] INFO  SalaryService - Заработная плата: 220540.32 на должнотсь: Менеджер
+20:35:04 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+20:35:04 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Тестировщик
+20:54:22 [main] INFO  PositionService - Созданная должность: Developer
+20:54:22 [main] INFO  PositionService - Обновленная должность: Senior Developer
+20:54:22 [main] INFO  PositionService - Созданная должность: Developer
+20:54:22 [main] INFO  PositionService - Созданная должность: Developer
+20:54:22 [main] INFO  PositionService - Удаленная должность: Developer
+20:55:13 [main] INFO  PositionService - Созданная должность: Developer
+20:55:13 [main] INFO  PositionService - Удаленная должность: Developer
+20:56:19 [main] INFO  PositionService - Созданная должность: Developer
+20:56:19 [main] INFO  PositionService - Удаленная должность: Developer
+21:03:32 [main] INFO  SalaryService - Заработная плата: 1650.0 на должнотсь: Developer
+21:04:34 [main] INFO  SalaryService - Заработная плата: 1650.0 на должнотсь: Разработчик
+21:04:47 [main] INFO  SalaryService - Заработная плата: 1650.0 на должнотсь: Разработчик
+21:29:29 [main] INFO  SalaryService - Заработная плата: 1650.0 на должность: Разработчик
+21:29:39 [main] INFO  PositionService - Созданная должность: Разработчик
+21:29:39 [main] INFO  PositionService - Созданная должность: Менеджер
+21:29:39 [main] INFO  SalaryService - Заработная плата: 103000.0 на должность: Разработчик
+21:29:39 [main] INFO  SalaryService - Заработная плата: 157500.0 на должность: Менеджер
+21:29:39 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+21:29:39 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+21:29:39 [main] INFO  SalaryService - Заработная плата: 115566.00000000001 на должность: Разработчик
+21:29:39 [main] INFO  SalaryService - Заработная плата: 180180.0 на должность: Менеджер
+21:29:39 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+21:29:39 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должность: Разработчик
+21:29:39 [main] INFO  SalaryService - Заработная плата: 220540.32 на должность: Менеджер
