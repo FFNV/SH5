@@ -1,5 +1,7 @@
 package org.example.config;
 
+import org.example.MathSalaryCalculator;
+import org.example.model.Salary;
 import org.example.service.EmployeeService;
 import org.example.service.PositionService;
 import org.example.service.SalaryService;
@@ -28,7 +30,17 @@ public class ServiceConfiguration {
     @Bean
     @Scope("prototype")
     public SalaryService salaryService() {
-        return new SalaryService();
+        SalaryService salaryService = new SalaryService();
+        // Create and set the Salary object with a non-null value
+        Salary salary = new Salary();
+        salary.setAmount(50000.0); // Set an initial value
+        salaryService.setSalary(salary);
+        return salaryService;
+    }
+
+    @Bean
+    public MathSalaryCalculator mathSalaryCalculator() {
+        return new MathSalaryCalculator();
     }
 
 }

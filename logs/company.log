@@ -67,3 +67,28 @@
 21:29:39 [main] INFO  EmployeeService - Уволен сотрудник: Боб
 21:29:39 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должность: Разработчик
 21:29:39 [main] INFO  SalaryService - Заработная плата: 220540.32 на должность: Менеджер
+13:02:29 [main] INFO  PositionService - Созданная должность: Разработчик
+13:02:29 [main] INFO  PositionService - Созданная должность: Менеджер
+13:02:29 [main] INFO  SalaryService - Заработная плата: 103000.0 на должность: Разработчик
+13:02:29 [main] INFO  SalaryService - Заработная плата: 157500.0 на должность: Менеджер
+13:02:29 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+13:02:29 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+13:02:29 [main] INFO  SalaryService - Заработная плата: 115566.00000000001 на должность: Разработчик
+13:02:29 [main] INFO  SalaryService - Заработная плата: 180180.0 на должность: Менеджер
+13:02:29 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+13:02:29 [main] INFO  SalaryService - Заработная плата: 142839.57600000003 на должность: Разработчик
+13:02:29 [main] INFO  SalaryService - Заработная плата: 220540.32 на должность: Менеджер
+12:43:31 [main] WARN  AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceConfiguration': Unsatisfied dependency expressed through field 'positionService': Error creating bean with name 'positionService': Unsatisfied dependency expressed through method 'setSalaryService' parameter 0: Error creating bean with name 'salaryService' defined in class path resource [org/example/config/ServiceConfiguration.class]: Cannot invoke "org.example.model.Salary.getAmount()" because the return value of "org.example.service.SalaryService.getSalary()" is null
+12:46:19 [main] WARN  AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceConfiguration': Unsatisfied dependency expressed through field 'positionService': Error creating bean with name 'positionService': Unsatisfied dependency expressed through method 'setSalaryService' parameter 0: Error creating bean with name 'salaryService' defined in class path resource [org/example/config/ServiceConfiguration.class]: Cannot invoke "org.example.model.Salary.getAmount()" because the return value of "org.example.service.SalaryService.getSalary()" is null
+12:49:54 [main] WARN  AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceConfiguration': Unsatisfied dependency expressed through field 'positionService': Error creating bean with name 'positionService': Unsatisfied dependency expressed through method 'setSalaryService' parameter 0: Error creating bean with name 'salaryService' defined in class path resource [org/example/config/ServiceConfiguration.class]: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "org.example.model.Salary.getAmount()" is null
+12:52:08 [main] INFO  PositionService - Созданная должность: Разработчик
+12:52:08 [main] INFO  PositionService - Созданная должность: Менеджер
+12:52:08 [main] INFO  SalaryService - Заработная плата: 106090.0 на должность: Разработчик
+12:52:08 [main] INFO  SalaryService - Заработная плата: 165375.0 на должность: Менеджер
+12:52:08 [main] INFO  EmployeeService - Нанят работник: Алиса на должность: Разработчик
+12:52:08 [main] INFO  EmployeeService - Нанят работник: Боб на должность: Менеджер
+12:52:08 [main] INFO  SalaryService - Заработная плата: 121413.6396 на должность: Разработчик
+12:52:08 [main] INFO  SalaryService - Заработная плата: 196756.56000000003 на должность: Менеджер
+12:52:08 [main] INFO  EmployeeService - Уволен сотрудник: Боб
+12:52:08 [main] INFO  SalaryService - Заработная плата: 154569.276301968 на должность: Разработчик
+12:52:08 [main] INFO  SalaryService - Заработная плата: 245646.63002880002 на должность: Менеджер

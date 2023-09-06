@@ -1,6 +1,7 @@
 package org.example.service;
 
 import org.example.model.Position;
+import org.example.model.Skill;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
@@ -9,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 @Service
@@ -63,5 +65,27 @@ public class PositionService {
     public List<Position> getPositions() {
         return Collections.unmodifiableList(positions);
     }
+
+    public void removeUnpopularSkill(Skill skill) {
+        if (skill == null) {
+            throw new IllegalArgumentException("Skill cannot be null");
+        }
+
+        Iterator<Position> iterator = positions.iterator();
+        while (iterator.hasNext()) {
+            Position position = iterator.next();
+            List<Skill> requiredSkills = position.getRequiredSkills();
+
+            if (requiredSkills.contains(skill)) {
+
+                requiredSkills.remove(skill);
+
+                String message = "Удален навык: '" + skill.getName() + "' с позиции: " + position.getTitle();
+                System.out.println(message);
+                logger.info(message);
+            }
+        }
+    }
 }
+
 
